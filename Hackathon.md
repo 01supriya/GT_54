@@ -1,5 +1,9 @@
-# **GST 54 - GST HACKATHON**
+**GST 54 - GST HACKATHON**
+===================================================
+
 ## Introduction
+
+
 The world of Data-Driven AI and ML solutions are being extensively used in solving many problems that exist in the world. While these used to be confined to the big tech companies, nowadays it is accessible to each and everyone. This has led to these concepts being used on wide-range of problems, ranging from Finance to Medical fields, improving the efficiency and driving these fields to the next level.
 
 This made us wonder what if we use these concepts in building a predictive modelling for the Commercial Taxes (GST), which plays a significant role in contribution in terms of revenue to the country.
@@ -10,6 +14,7 @@ This is our submission towards the GST Hackathon in solving the problem statemen
 
 
 ## Problem Statement 
+
 We have worked on a vast dataset of approximately 900,000 records, each containing around 21 attributes and target variables. This anonymized data is meticulously labeled and includes training, testing, and a non-validated subset for final evaluations by the GST Network (GSTN).
 
 The problem statement given to us is as below:
@@ -25,7 +30,9 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
 
 ## Project Implementation
 1. **Exploratory Data Analysis (EDA)**  
-   - Perform initial analysis to understand the datasets
+   - Preliminary Analysis of the Datasets
+   - Univartiate Analysis
+   - Bivariate Analysis
    - Visualize key features and relationships.
 
 2. **Data Cleansing**  
@@ -44,15 +51,24 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
 
 
 ## Exploratory Data Analysis
-### Understanding the Training and Testing Data 
+### <ins>Understanding the Training and Testing Data</ins>
+#### Basic Analysis
 | Feature | Train Data | Validation Data |
 |---|---|---|
 | Rows | 779,140 | 261,712 |
-| Duplicates | 0 | 0 |
-| Features | 24 | 24 |
+| Columns | 24 | 24 |
+| Duplicate Rows | 0 | 0 |
 | Categorical | 9 | 9 |
 | Numerical | 14 | 14 |
 | Text | 1 | 1 |
 
-From this, we can see that the Training data has 779140 Rows and 
+##### <ins>Observation</ins>:
 
+ - The **Train Data** consists of ***779140** Observations* and ***24** Features* and **Test Data** consists of ***779140** Observations* and ***24** Features*
+- Both of the datasets **do not**  have any duplicateobservations.
+- Both the datasets have **9 Categorical Features**, **14 Numerical Features**, and **1 Text Feature**.
+
+## Univariate and Bi-Variate Analysis
+*The Univariate Analysis was carried out on both train and validation data to see the difference in the features in terms of their observations. While  the Bivariate Analysis would be done primarily on the Train Data where some important relations were seen.*
+
+### Target Column
