@@ -71,4 +71,135 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
 ## Univariate and Bi-Variate Analysis
 *The Univariate Analysis was carried out on both train and validation data to see the difference in the features in terms of their observations. While  the Bivariate Analysis would be done primarily on the Train Data where some important relations were seen.*
 
+<img src="https://github.com/user-attachments/assets/05538e9b-7b77-444a-816e-625ef98152af" width="300" alt="image">
+<br>
+
+## TEXT
+### ID Column
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/5aceac39-c292-4cee-8b28-ae9e2b6467f7">
+
+## CATEGORICAL
 ### Target Column
+<img width="215" alt="image" src="https://github.com/user-attachments/assets/e0f1d9f1-79e1-46ba-85c2-02517b91d8c6">
+
+### Column10
+<img width="215" alt="image" src="https://github.com/user-attachments/assets/a500754a-8ef4-4033-8504-051b2322f10c">
+
+### Column11
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/56e40166-5605-4d73-b7b6-770525fa2a73">
+
+### Column12
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/de7c866b-ff98-4923-aa47-9833ef742530">
+
+### Column13
+<img width="212" alt="image" src="https://github.com/user-attachments/assets/17541fda-f974-4249-bbf4-f63bda439efb">
+
+### Column16
+<img width="218" alt="image" src="https://github.com/user-attachments/assets/a4c4c225-10ca-45b8-a021-37b3321653b6">
+
+### Column19
+<img width="214" alt="image" src="https://github.com/user-attachments/assets/1cee06a5-7ba4-4530-928c-15bde6e9175a">
+
+### Column20
+<img width="211" alt="image" src="https://github.com/user-attachments/assets/1e35307b-5840-4579-bdda-6f3000a49b90">
+
+### Column21
+<img width="215" alt="image" src="https://github.com/user-attachments/assets/a10755bc-2995-401e-a29c-57203353b70b">
+
+## NUMERICAL
+### Column0
+<img width="467" alt="image" src="https://github.com/user-attachments/assets/31bc49c3-273d-4ab6-843f-2bce8ccbfd51">
+<br>
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/4a8f1587-7b63-495d-b897-1dd70863f6a0">
+
+### Column1
+<img width="355" alt="image" src="https://github.com/user-attachments/assets/b6d49441-3e29-455f-a1c5-5359d7c5b6d2">
+<br>
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/d3646db1-858e-4054-bb15-08e00fb0cae8">
+
+### Column2
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/c284e64b-71df-4886-943b-c373d37dc3cf">
+<br>
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/6aae92f3-4aaf-4bb4-8cfc-1df09a560581">
+
+### Column3
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/26d05726-da72-49ad-a359-f419e3eb0911">
+<br>
+<img width="316" alt="image" src="https://github.com/user-attachments/assets/d29bf7ab-73b1-45cc-abaa-4282e87fe913">
+
+### Column4
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/fff51a5d-457a-4f41-a946-e57463147cf0">
+<br>
+<img width="319" alt="image" src="https://github.com/user-attachments/assets/7583d6ea-3fd0-4f46-aaa2-7ab57b6049b8">
+
+### Column5
+<img width="356" alt="image" src="https://github.com/user-attachments/assets/1a416228-4a55-4b96-a217-136b22e549ff">
+<br>
+<img width="324" alt="image" src="https://github.com/user-attachments/assets/f5587784-a262-478c-bfda-ebebc09bae38">
+
+### Column6
+<img width="347" alt="image" src="https://github.com/user-attachments/assets/c05bb705-bd7b-4c9e-987f-d38fb0a47f36">
+<br>
+<img width="326" alt="image" src="https://github.com/user-attachments/assets/067bfd46-fccf-4d36-970e-eb3b588dec05">
+
+### Column7
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/36d268a9-89cb-43b5-bd57-abdda876b0c5">
+<br>
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/cc3bfd0b-3b6f-469b-b6aa-499c9af4de32">
+
+### Column8
+<img width="350" alt="image" src="https://github.com/user-attachments/assets/260409a7-be11-428d-bb13-b2c8d3d89ed8">
+<br>
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/fc84d11a-4f18-4afa-9d7c-c6fd2544596f">
+
+### Column9
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/0c9cb44a-e325-4a51-8be7-e4e81fc6b66b">
+<br>
+<img width="316" alt="image" src="https://github.com/user-attachments/assets/976c86eb-24be-4710-8c12-3649e0a39eda">
+
+### Column14
+<img width="348" alt="image" src="https://github.com/user-attachments/assets/503e245f-8128-4e5c-810d-4f99bd0b80a2">
+<br>
+<img width="320" alt="image" src="https://github.com/user-attachments/assets/9813f318-c82f-4f06-95da-e8c4891b0d73">
+
+### Column15
+<img width="352" alt="image" src="https://github.com/user-attachments/assets/3862e361-c876-4a5f-84c5-a8a741f26050">
+<br>
+<img width="323" alt="image" src="https://github.com/user-attachments/assets/21dd4446-92c4-44ea-b353-2749c1fc2929">
+
+### Column17
+<img width="358" alt="image" src="https://github.com/user-attachments/assets/4cd0c4da-ea0b-44b7-b1f3-4fc749762da6">
+<br>
+<img width="329" alt="image" src="https://github.com/user-attachments/assets/4cd7f62b-a1c5-4d3f-b667-dd79564cf29c">
+
+### Column18
+<img width="353" alt="image" src="https://github.com/user-attachments/assets/6454426e-9acf-463b-bdaf-ef3755c506f0">
+<br>
+<img width="321" alt="image" src="https://github.com/user-attachments/assets/4978daa1-0c6d-4509-a0c5-56677698d7af">
+
+##### <ins>Observations</ins>:
+ - The **ID**column has no missing values meaning all the observations are unique.
+ - All the **Categorical** variables have only **One** missing value each
+ - The **Target** variable is *highly imbalanced* with two classes split at **91%** and **9%**. This is the similar case for other categorical variables such as       *Column16,Column19,Column20,Column21*
+ - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
