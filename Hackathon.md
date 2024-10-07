@@ -180,8 +180,8 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
 ##### <ins>Observations</ins>:
  - The **ID**column has no missing values meaning all the observations are unique.
  - All the **Categorical** variables have only **One** missing value each
- - The **Target** variable is *highly imbalanced* with two classes split at **91%** and **9%**. This is the similar case for other categorical variables such as       *Column16,Column19,Column20,Column21*
- - 
+ - The **Target** variable is *highly imbalanced* with two classes split at **91%** and **9%**. This is the similar case for other categorical variables such as       *Column16,Column19,Column20,Column21.*
+ - Out o
 
 
 
