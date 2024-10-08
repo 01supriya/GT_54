@@ -17,16 +17,19 @@ This is our submission towards the GST Hackathon in solving the problem statemen
 
 We have worked on a vast dataset of approximately 900,000 records, each containing around 21 attributes and target variables. This anonymized data is meticulously labeled and includes training, testing, and a non-validated subset for final evaluations by the GST Network (GSTN).
 
-The problem statement given to us is as below:
-Given a dataset D, which consists of:
-Dtrain A matrix of dimension R(m×n) representing the training data.
-Dtest A matrix of dimension R(m1×n) representing the test data.
+**Problem Statement:**
 
-We have also provided corresponding target variable Ytrain matrix dimension of R(m×1) and Ytest with matrix dimension of R(m1×1).
+Given a dataset **D** consisting of:
 
-The objective is to construct a predictive model Fθ(X)→ Ypred that accurately estimates the target variable Y{i} for new, unseen inputs X{i}
+* **Dtrain:** A matrix of dimension $R(m \times n)$ representing the training data.
+* **Dtest:** A matrix of dimension $R(m1 \times n)$ representing the test data.
 
+And corresponding target variables:
 
+* **Ytrain:** A matrix of dimension $R(m \times 1)$.
+* **Ytest:** A matrix of dimension $R(m1 \times 1)$.
+
+The objective is to construct a predictive model **Fθ(X) → Ypred** that accurately estimates the target variable **Y{i}** for new, unseen inputs **X{i}**.
 
 ## Project Implementation
 1. **Exploratory Data Analysis (EDA)**  
@@ -61,6 +64,8 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
 | Categorical | 9 | 9 |
 | Numerical | 14 | 14 |
 | Text | 1 | 1 |
+
+
 
 ##### <ins>Observation</ins>:
 
@@ -181,18 +186,35 @@ The objective is to construct a predictive model Fθ(X)→ Ypred that accurately
  - The **ID**column has no missing values meaning all the observations are unique.
  - All the **Categorical** variables have only **One** missing value each
  - The **Target** variable is *highly imbalanced* with two classes split at **91%** and **9%**. This is the similar case for other categorical variables such as       *Column16,Column19,Column20,Column21.*
- - Out o
+ - The variablese such as *Column3, Column4, have around **16%** of observations as missing values, with *Column5* having around **21%**. It has to be noted that the ***Column9*** has around ***93%*** of the observations as missing values.
 
+## Bi-Variate Analysis
+### Correlation between Variables
+The **Correlation Coefficient** helps us understand the strength of the linear relationship between two variables. The value ranges from *-1 to 1*.
+   - If the **correlation coefficient is less than zero**, it means the variables have an *inverse relationship* — when one goes up, the other tends to go down.
+   - If the **correlation coefficient is greater than zero**, it indicates a *direct relationship* — both variables tend to move in the same direction.
+   - If the **correlation coefficient is zero**, it suggests that the variables are *not related* — there’s no clear pattern in how they move together.
 
+   --We have used the **Pearson's Correlation Coefficient** to calculate the Correlation which is as below:
+The correlation coefficient \( r \) is given by:
 
+$$
+r = \frac{\sum{(x - \bar{x})(y - \bar{y})}}{\sqrt{\sum{(x - \bar{x})^2} \sum{(y - \bar{y})^2}}}
+$$
 
+where:
+* $\bar{x}$ is the average of $n$ values of $x$
+* $\bar{y}$ is the average of $n$ values of $y$
 
+In the ideal situation, the  variables should have *higher correlation* with the target variable but must have *low correlation* within themselves. Hence we plotted a Correlation Matrix for the *train* to understand the *Correlation between each of the variables.
 
+#### Correlation Matrix for Train Data
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/9b6b13ae-40f8-454d-857f-ab9dd8179cb3">
 
+##### Visualize key features and relationships.
+ - *From the above *Correlation Matrix*, we can see that Column3 & column4 have *High* Correlation wtihin themselves. So we plotted a *Scatter Graph* to understand the correlation. *
 
-
-
-
+ <img width="359" alt="image" src="https://github.com/user-attachments/assets/716ca45a-e4d1-4a2b-ab40-5d3ddc66e660">
 
 
 
